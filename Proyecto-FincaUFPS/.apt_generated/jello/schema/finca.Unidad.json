@@ -1,0 +1,37 @@
+{
+	"name" : "finca.Unidad",
+	"fields" : [
+		{
+			"name" : "NumAnimales",
+			"type" : "java.lang.Integer",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "codigo",
+			"type" : "java.lang.Integer",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "descripcion",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "nombre",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "Area",
+			"type" : "com.google.appengine.api.datastore.Key",
+			"isPublic" : true,
+			"isStatic" : false
+		}
+	],
+	"actions" : [
+	]
+}

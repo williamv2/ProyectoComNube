@@ -1,0 +1,55 @@
+{
+	"name" : "finca.Animal",
+	"fields" : [
+		{
+			"name" : "cantAlimento",
+			"type" : "java.lang.Integer",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "descripcion",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "especie",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "fechaIngreso",
+			"type" : "java.util.Date",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "genero",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "nombre",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "tamano",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "Unidad",
+			"type" : "com.google.appengine.api.datastore.Key",
+			"isPublic" : true,
+			"isStatic" : false
+		}
+	],
+	"actions" : [
+	]
+}

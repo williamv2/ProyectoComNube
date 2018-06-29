@@ -1,0 +1,37 @@
+{
+	"name" : "finca.Persona",
+	"fields" : [
+		{
+			"name" : "Dni",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "Nombres",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "Apellidos",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "Tipo",
+			"type" : "java.util.List<finca.Visitante>",
+			"isPublic" : false,
+			"isStatic" : false
+		},
+		{
+			"name" : "proyecto",
+			"type" : "java.util.List<finca.Proyecto>",
+			"isPublic" : false,
+			"isStatic" : false
+		}
+	],
+	"actions" : [
+	]
+}

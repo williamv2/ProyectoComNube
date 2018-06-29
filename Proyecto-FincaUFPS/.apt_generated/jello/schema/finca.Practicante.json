@@ -1,0 +1,37 @@
+{
+	"name" : "finca.Practicante",
+	"fields" : [
+		{
+			"name" : "fechaFinal",
+			"type" : "java.util.Date",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "fechaInicio",
+			"type" : "java.util.Date",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "institucion",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "semestre",
+			"type" : "java.lang.Integer",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "Persona",
+			"type" : "com.google.appengine.api.datastore.Key",
+			"isPublic" : true,
+			"isStatic" : false
+		}
+	],
+	"actions" : [
+	]
+}

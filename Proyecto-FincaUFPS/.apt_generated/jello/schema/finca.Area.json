@@ -1,0 +1,19 @@
+{
+	"name" : "finca.Area",
+	"fields" : [
+		{
+			"name" : "codigo",
+			"type" : "java.lang.Integer",
+			"isPublic" : true,
+			"isStatic" : false
+		},
+		{
+			"name" : "descripcion",
+			"type" : "java.lang.String",
+			"isPublic" : true,
+			"isStatic" : false
+		}
+	],
+	"actions" : [
+	]
+}
